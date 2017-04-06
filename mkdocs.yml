@@ -1,7 +1,7 @@
 site_name: Documentation
-site_description: 'A short description of my project'
+site_description: 'BPM24Cloud Docs'
 site_author: 'John Doe'
-site_url: 'https://my-github-handle.github.io/my-project'
+site_url: 'http://bpm24.cloud'
 
 copyright: 'Copyright &copy; 2016 - 2017 BPM24Cloud'
 
@@ -30,11 +30,9 @@ extra:
     accent: 'light blue'
   social:
       - type: 'github'
-        link: 'https://github.com/squidfunk'
+        link: 'https://github.com/bpm24'
       - type: 'twitter'
-        link: 'https://twitter.com/squidfunk'
-      - type: 'facebook'
-        link: 'https://de.linkedin.com/in/martin-donath-20a95039'
+        link: 'https://twitter.com/Bpm24Cloud'
 
 markdown_extensions:
   #- pymdownx.superfences
