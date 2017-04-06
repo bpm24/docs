@@ -1,0 +1,44 @@
+site_name: Documentation
+site_description: 'A short description of my project'
+site_author: 'John Doe'
+site_url: 'https://my-github-handle.github.io/my-project'
+
+copyright: 'Copyright &copy; 2016 - 2017 BPM24Cloud'
+
+theme: 'material'
+pages:
+  - Overview: 'main/index.md'
+  - 'BPM Engine':
+    - Process: 'main/process.md'
+    - Connector: 'main/connector.md'
+    - Context: 'main/context.md'
+    - Variables: 'main/variables.md'
+    - API: 'main/bpmapi.md'
+  - Storage:
+    - Overview:  'storage/index.md'
+    - Protocol: 'storage/protocol.md'
+  - 'REST API': 'restapi/index.md'
+  - 'SDKs':
+    - JavaScript: 'sdk/javascript.md'
+  - 'Error codes': 'main/errors.md'
+
+
+  - 'BPM24 Standalone': standalone.md
+extra:
+  palette:
+    primary: 'green'
+    accent: 'light blue'
+  social:
+      - type: 'github'
+        link: 'https://github.com/squidfunk'
+      - type: 'twitter'
+        link: 'https://twitter.com/squidfunk'
+      - type: 'facebook'
+        link: 'https://de.linkedin.com/in/martin-donath-20a95039'
+
+markdown_extensions:
+  #- pymdownx.superfences
+  - markdown.extensions.admonition
+  - markdown.extensions.codehilite(guess_lang=false)
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
