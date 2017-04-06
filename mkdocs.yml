@@ -7,7 +7,7 @@ copyright: 'Copyright &copy; 2016 - 2017 BPM24Cloud'
 
 theme: 'material'
 pages:
-  - Overview: 'main/index.md'
+  - Overview: 'index.md'
   - 'BPM Engine':
     - Process: 'main/process.md'
     - Connector: 'main/connector.md'
